@@ -12,6 +12,8 @@ from helper_func import view_classify
 model = Classifier()
 model.load_state_dict(T.load('checkpoint_10.pth'))
 
-cont = processing.get_cont(sys.argv[1])
+impath = sys.argv[1]
+
+cont = processing.get_cont(impath)
 cont, box = processing.sort_cont(cont)
-processing.write_images()
+processing.write_images(cont)
