@@ -49,7 +49,6 @@ def write_images(cont):
     for x, y, w, h in zip(xdd, ydd, wdd, hdd):
         num = img[y:y + h, x:x + w]
         numbers.append(num)
-    print(numbers)
     k = 0
     for i in numbers:
         i = cv.resize(i, (28, 28))
