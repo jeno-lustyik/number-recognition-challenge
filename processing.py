@@ -29,7 +29,8 @@ def sort_cont(cnt):
     return cnt, b
 
 
-def write_images(img, cont):
+def write_images(cont):
+    img = cv.imread(sys.argv[1])
 
     xdd = []
     ydd = []
