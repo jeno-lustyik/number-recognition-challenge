@@ -35,11 +35,15 @@ matplotlib == 3.2.2
 6. main.py --- It is the main file where user can input and predict.
 
 #### Demo.
+User Input Image Example.
+<img src= ".\images\numbers.jpg" alt="Image with a Green Screen Background. "/>   
+Images look like after preprocessing
+<img src= ".\images\3.jpg" alt="Image with a Green Screen Background. "/>  
 Train vs Test Losses during training. 
 <img src= ".\images\trainvstest_losses.JPG" alt="Image with a Green Screen Background. "/>    
   
 Accuracy of the model.  
-<img src= ".\images\Accuracy.JPG" alt="Image with a Background."/>    
+<img src= ".\images\Accuraccy.JPG" alt="Image with a Background."/>    
 
 
 Final output   
