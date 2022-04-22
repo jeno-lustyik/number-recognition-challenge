@@ -13,7 +13,7 @@ from helper_func import view_classify
 from torchvision.io import read_image
 from PIL import Image
 model = Classifier()
-model.load_state_dict(T.load('checkpoint_10.pth'))
+model.load_state_dict(T.load('checkpoint_9.pth'))
 
 impath = sys.argv[1]
 

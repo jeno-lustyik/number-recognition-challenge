@@ -36,7 +36,7 @@ def write_images(cont):
     ydd = []
     wdd = []
     hdd = []
-
+    padding = 4
     for i in cont:
         (xd, yd, wd, hd) = cv.boundingRect(i)
         if (wd >= 0) and (hd >= 100):
@@ -51,7 +51,8 @@ def write_images(cont):
         numbers.append(num)
     k = 0
     for i in numbers:
-        i = cv.resize(i, (28, 28))
+        i = cv.resize(i, (24, 24))
+        i = cv.copyMakeBorder(i, 2, 2, 2, 2, cv.BORDER_CONSTANT, value=(255, 255, 255))
         ret, i = cv.threshold(i, 143, 255, cv.THRESH_BINARY_INV)
         cv.imwrite(f'img/{k}.jpg', i)
         k += 1
