@@ -37,8 +37,14 @@ matplotlib == 3.2.2
 #### Demo.
 User Input Image Example.
 <img src= ".\images\numbers.jpg" alt="Image with a Green Screen Background. "/>   
-Images look like after preprocessing
+Images look like after extracting each number.
 <img src= ".\images\3.jpg" alt="Image with a Green Screen Background. "/>  
+<img src= ".\images\1.jpg" alt="Image with a Green Screen Background. "/>  
+<img src= ".\images\2.jpg" alt="Image with a Green Screen Background. "/>  
+<img src= ".\images\4.jpg" alt="Image with a Green Screen Background. "/>
+<img src= ".\images\7.jpg" alt="Image with a Green Screen Background. "/>  
+<img src= ".\images\8.jpg" alt="Image with a Green Screen Background. "/>  
+<img src= ".\images\9.jpg" alt="Image with a Green Screen Background. "/>    
 Train vs Test Losses during training. 
 <img src= ".\images\trainvstest_losses.JPG" alt="Image with a Green Screen Background. "/>    
   
