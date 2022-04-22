@@ -4,6 +4,8 @@ import torch.nn.functional as F
 from torch import optim
 from torchvision import datasets, transforms
 
+
+
 class Classifier(nn.Module):
     def __init__(self):
         super(Classifier, self).__init__()

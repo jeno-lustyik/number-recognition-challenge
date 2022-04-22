@@ -10,15 +10,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 ### Load the datasets from torchvision
-def load_data():
-    transform = transforms.compose([transforms.ToTensor(), transforms.Normalize((0.5),(0.5))])
 
-    trainset = datasets.MNIST('MNIST_data/', download=True, train=True, transform=transform)
-    trainloader = T.utils.data.DataLoader(trainset, batch_size=64, shuffle=True)
+transform = transforms.compose([transforms.ToTensor(), transforms.Normalize((0.5),(0.5))])
 
-    # Download and load the test data
-    testset    = datasets.MNIST('MNIST_data/', download=True, train=False, transform=transform)
-    testloader = T.utils.data.DataLoader(testset, batch_size=64, shuffle=True)
+trainset = datasets.MNIST('MNIST_data/', download=True, train=True, transform=transform)
+trainloader = T.utils.data.DataLoader(trainset, batch_size=64, shuffle=True)
 
-    return trainloader, testloader
+# Download and load the test data
+testset    = datasets.MNIST('MNIST_data/', download=True, train=False, transform=transform)
+testloader = T.utils.data.DataLoader(testset, batch_size=64, shuffle=True)
+
+
 
