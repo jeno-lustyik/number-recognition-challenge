@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7061d44f-f760-4534-9cc4-24a602be1a79" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/helper_func.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +38,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager" selected="Python.main">
@@ -101,7 +104,7 @@
       <updated>1650636031063</updated>
       <workItem from="1650636032516" duration="9000" />
       <workItem from="1650636053630" duration="33000" />
-      <workItem from="1650636109168" duration="838000" />
+      <workItem from="1650636109168" duration="1617000" />
     </task>
     <servers />
   </component>
