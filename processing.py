@@ -1,8 +1,10 @@
 import cv2 as cv
 import numpy as np
+import sys
 
 # Read the image and transform it to grayscale
-impath = 'img/numbers.jpg'
+impath = sys.argv[1]
+# impath = 'numbers.jpg'
 img = cv.imread(impath)
 img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
